@@ -1,0 +1,55 @@
+/* tells where the cute font is, replaced by Google API*/
+/*
+@font-face {
+	font-family: "borel";
+	src: url("/font/borel-regular.woff2") format("woff2");
+}
+*/
+
+/* applies the cute font to the next tags */
+h1, h2, h3, p, i {
+	font-family: Borel, Noto Color Emoji, sans-serif;
+}
+
+/* centers everything */
+* { 
+	text-align:center;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+/* makes the links off pink */
+a {
+	color: deeppink;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* makes the background pink */
+body {
+	background-color: pink;
+}
+
+/* font sizes for the different tags */
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 2em;
+}
+p, i {
+	font-size: 1.5em;
+}
+
+/* sets the view counter height*/
+.counter {
+	height: 3em;
+}
+/* sets the favicon height */
+.favicon {
+	height: 1em;
+}
+.screenshot {
+	height: 16em;
+	border-radius: 0.5em;
+}
