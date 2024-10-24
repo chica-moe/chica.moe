@@ -26,11 +26,6 @@ a {
 	text-decoration: none;
 }
 
-/* makes the background pink */
-body {
-	background-color: pink;
-}
-
 /* font sizes for the different tags */
 h1 {
 	font-size: 2.5em;
